@@ -10,6 +10,11 @@ public class ProductoDAOTest {
         factories.implementaciones.mySQL.ProductoDAO productoDAO = new ProductoDAO();
         Producto producto = new Producto(1,"Cornfleis",25.0f,"Abarrotes",5.0f, 2.0f, 10.0f);
         Assert.assertEquals(Boolean.TRUE, productoDAO.create(producto));
+    }
 
+    @Test
+    public void deleteByIdTest(){
+        factories.implementaciones.mySQL.ProductoDAO productoDAO = new ProductoDAO();
+        Assert.assertEquals(Boolean.TRUE, productoDAO.deleteById(1));
     }
 }
