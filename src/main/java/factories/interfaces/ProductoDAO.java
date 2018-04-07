@@ -4,8 +4,8 @@ import modelos.Producto;
 
 import java.util.List;
 
-public interface productoDAO {
-    public Boolean create(Producto obj);
+public interface ProductoDAO {
+    public Boolean create(Producto   obj);
 
     public List<Producto> read();
 

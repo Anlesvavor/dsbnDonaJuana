@@ -2,12 +2,12 @@ package modelos;
 
 public class Producto {
 
-    public static final String TABLE = "producto";
+    public static final String TABLE = "productos";
     public static final String UNDEF = "%s";
     public static final String FIELD_CLAVE = "clave_producto";
     public static final String FIELD_DESC = "descripcion";
     public static final String FIELD_PRECIO = "precio";
-    public static final String FIELD_CLAS = "clasificaion";
+    public static final String FIELD_CLAS = "clasificacion";
     public static final String FIELD_EXI = "existencia";
     public static final String FIELD_MAX_E = "max_existencia";
     public static final String FILED_MIN_E = "min_existencia";
@@ -34,7 +34,6 @@ public class Producto {
             TABLE, FIELD_CLAVE, UNDEF
     );
 
-
     public static final String DELETE_BY_CRITERIA = String.format(
             "DELETE FROM %s WHERE %s = %s",
             TABLE, UNDEF, UNDEF
@@ -48,6 +47,18 @@ public class Producto {
     private Float existencia;
     private Float minExistencia;
     private Float maxExistencia;
+
+    public Producto(){}
+
+    public Producto(Integer clave, String descripcion, Float precio, String clasificacion, Float existencia, Float minExistencia, Float maxExistencia) {
+        this.clave = clave;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.clasificacion = clasificacion;
+        this.existencia = existencia;
+        this.minExistencia = minExistencia;
+        this.maxExistencia = maxExistencia;
+    }
 
     public static String getTABLE() {
         return TABLE;

@@ -32,7 +32,7 @@ public class Conexion {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/hr2?useSSL=false&serverTimezone=UTC",
+                "jdbc:mysql://localhost:3306/tienda?useSSL=false&serverTimezone=UTC",
                 "root",
                 "root");
     }
