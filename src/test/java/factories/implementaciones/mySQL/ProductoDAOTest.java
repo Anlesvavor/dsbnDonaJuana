@@ -4,6 +4,10 @@ import modelos.Producto;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
 public class ProductoDAOTest {
     @Test
     public void createTest(){
@@ -16,5 +20,13 @@ public class ProductoDAOTest {
     public void deleteByIdTest(){
         factories.implementaciones.mySQL.ProductoDAO productoDAO = new ProductoDAO();
         Assert.assertEquals(Boolean.TRUE, productoDAO.deleteById(1));
+    }
+
+    @Test
+    public void readTest(){
+        factories.implementaciones.mySQL.ProductoDAO productoDAO = new ProductoDAO();
+        productoDAO.read().stream().forEach((Producto obj)->{
+            System.out.println(obj.toString());
+        });
     }
 }

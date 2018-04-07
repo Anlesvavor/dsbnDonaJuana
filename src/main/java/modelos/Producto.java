@@ -151,4 +151,17 @@ public class Producto {
     public void setMaxExistencia(Float maxExistencia) {
         this.maxExistencia = maxExistencia;
     }
+
+    @Override
+    public String toString() {
+        return "Producto{" +
+                "clave=" + clave +
+                ", descripcion='" + descripcion + '\'' +
+                ", precio=" + precio +
+                ", clasificacion='" + clasificacion + '\'' +
+                ", existencia=" + existencia +
+                ", minExistencia=" + minExistencia +
+                ", maxExistencia=" + maxExistencia +
+                '}';
+    }
 }
