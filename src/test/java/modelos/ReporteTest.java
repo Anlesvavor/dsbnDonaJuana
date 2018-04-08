@@ -3,6 +3,8 @@ package modelos;
 import factories.implementaciones.mySQL.ProductoDAO;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Stream;
 
 public class ReporteTest {
@@ -29,9 +31,18 @@ public class ReporteTest {
     @Test
     public void cantidadPorClasificacion(){
         ReporteProductos rep = new ReporteProductos();
-        Stream<Producto> stream = null;
         factories.interfaces.ProductoDAO productoDAO = new ProductoDAO();
-        productoDAO.getClasificaciones().forEach(System.out::println);
-        rep.agruparPorClasificacion("Abarrotes").filter(producto -> producto.getPrecio() > 15.50f);
+        List<String> clasificaciones = productoDAO.getClasificaciones();
+        clasificaciones.forEach(s -> System.out.println(String.format("%s: %s", s, rep.agruparPorClasificacion(s).count())));
+    }
+
+    @Test
+    public void mismaClasificacionEntrePrecios(){
+        ReporteProductos rep = new ReporteProductos();
+        factories.interfaces.ProductoDAO productoDAO = new ProductoDAO();
+        List<String> clasificaciones = productoDAO.getClasificaciones();
+        for (String s: clasificaciones) {
+            rep.existenciaMayorQueDesdeQuery(15.50f, rep.agruparPorClasificacion(s)).forEach(producto -> System.out.println(producto.toString()));
+        }
     }
 }

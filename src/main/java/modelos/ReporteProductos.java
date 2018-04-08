@@ -19,6 +19,12 @@ public class ReporteProductos {
         return productoDAO.read().stream().filter(producto -> producto.getExistencia() > existencia);
     }
 
+    public Stream<Producto> existenciaMayorQueDesdeQuery(Float cantidad, Stream<Producto> stream){
+        final Float existencia = cantidad;
+        factories.interfaces.ProductoDAO productoDAO = new ProductoDAO();
+        return stream.filter(producto -> producto.getPrecio() > cantidad);
+    }
+
     public Stream<Producto> precioEntre(final Float cant1, final Float cant2){
         factories.interfaces.ProductoDAO productoDAO = new ProductoDAO();
         return productoDAO.read().stream().filter(producto -> producto.getPrecio() >= cant1 && producto.getPrecio() <= cant2);
@@ -33,4 +39,5 @@ public class ReporteProductos {
         factories.interfaces.ProductoDAO productoDAO = new ProductoDAO();
         return productoDAO.readByCriteria(Producto.FIELD_CLAS, clasificacion).stream();
     }
+
 }
