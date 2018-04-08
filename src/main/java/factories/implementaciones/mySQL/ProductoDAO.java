@@ -62,6 +62,22 @@ public class ProductoDAO implements factories.interfaces.ProductoDAO {
     }
 
     @Override
+    public List<Producto> readByCriteria(String column, String criteria){
+        List<Producto> productos = new ArrayList<>();
+        try {
+            Conexion conexion = Conexion.getInstance();
+            Statement st = conexion.getConnecion().createStatement();
+            ResultSet res = st.executeQuery(String.format(Producto.READ_BY_CRITERIA, column, criteria));
+            while (res.next()){
+                productos.add(makeProducto(res));
+            }
+        }catch ( ClassNotFoundException | SQLException ex){
+            ex.printStackTrace();
+        }
+        return productos;
+    }
+
+    @Override
     public boolean update(Producto obj) {
         return false;
     }
@@ -100,5 +116,20 @@ public class ProductoDAO implements factories.interfaces.ProductoDAO {
         producto.setMinExistencia(rs.getFloat(i++));
         producto.setMaxExistencia(rs.getFloat(i));
         return producto;
+    }
+
+    public List<String> getClasificaciones(){
+        List<String> resultado = new ArrayList<>();
+        try {
+            Conexion conexion = Conexion.getInstance();
+            Statement st = conexion.getConnecion().createStatement();
+            ResultSet rs = st.executeQuery(String.format("SELECT DISTINCT %s FROM %s", Producto.FIELD_CLAS, Producto.TABLE));
+            while(rs.next()){
+                resultado.add(rs.getString(1));
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return resultado;
     }
 }

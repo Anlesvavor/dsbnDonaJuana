@@ -25,7 +25,7 @@ public class ProductoDAOTest {
     @Test
     public void readTest(){
         factories.implementaciones.mySQL.ProductoDAO productoDAO = new ProductoDAO();
-        productoDAO.read().stream().forEach((Producto obj)->{
+        productoDAO.read().forEach((Producto obj)->{
             System.out.println(obj.toString());
         });
     }

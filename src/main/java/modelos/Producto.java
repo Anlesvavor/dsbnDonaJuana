@@ -16,7 +16,7 @@ public class Producto {
 
     public static final String READ_ALL  = String.format("SELECT %s FROM %s", FIELDS, TABLE);
     public static final String READ_BY_ID = String.format("%s WHERE %s = %s", READ_ALL, FIELD_CLAVE, UNDEF);
-    public static final String READ_BY_CRITERIA = String.format("%s WHERE %s", READ_ALL, UNDEF);
+    public static final String READ_BY_CRITERIA = String.format("%s WHERE %s = \"%s\"", READ_ALL, UNDEF, UNDEF);
 
     public static final String UPDATE_BY_ID = String.format(
             "UPDATE FROM %s SET %s = %s, %s = \"%s\", %s = %s, %s = \"%s\", %s = %s, %s = %s, %s = %s WHERE %s = %s",
