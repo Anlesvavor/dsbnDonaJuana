@@ -18,7 +18,7 @@ public class ReporteTest {
     @Test
     public void existenciaMayorQueTest(){
         ReporteProductos rep = new ReporteProductos();
-        rep.existenciaMayorQue(6.0f).forEach(System.out::println);
+        rep.existenciaMayorQue(20.0f).forEach(System.out::println);
         System.out.println(rep.existenciaMayorQue(6.0f).count());
     }
 

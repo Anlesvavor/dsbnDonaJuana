@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85fef324-d5c2-439e-9523-e430db1c90ad" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelos/Reporte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelos/ReporteProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelos/ReporteProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelos/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/modelos/ReporteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modelos/ReporteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/modelos/ReporteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/modelos/ReporteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modelos/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/modelos/Producto.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="Conexion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conexiones/Conexion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="450">
               <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -42,8 +43,8 @@
       <file leaf-file-name="ProductoDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factories/implementaciones/mySQL/ProductoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="885">
+              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +67,8 @@
       <file leaf-file-name="ReporteProductos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/modelos/ReporteProductos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,11 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReporteTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReporteTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/modelos/ReporteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="44" column="143" selection-start-line="44" selection-start-column="143" selection-end-line="44" selection-end-column="143" />
+            <state relative-caret-position="300">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reporte.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/modelos/Reporte.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +103,8 @@
       <file leaf-file-name="ProductoDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factories/interfaces/ProductoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state>
+              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +115,8 @@
       <file leaf-file-name="Producto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/modelos/Producto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+            <state relative-caret-position="507">
+              <caret line="169" column="58" selection-start-line="169" selection-start-column="58" selection-end-line="169" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -136,12 +149,12 @@
         <option value="$PROJECT_DIR$/src/main/java/factories/implementaciones/mySQL/productoDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/factories/implementaciones/mySQL/ProductoDAOTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/factories/interfaces/Reportes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/modelos/Reporte.java" />
         <option value="$PROJECT_DIR$/src/main/java/factories/interfaces/ProductoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/factories/implementaciones/mySQL/ProductoDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/modelos/Producto.java" />
         <option value="$PROJECT_DIR$/src/main/java/modelos/ReporteProductos.java" />
         <option value="$PROJECT_DIR$/src/test/java/modelos/ReporteTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modelos/Reporte.java" />
       </list>
     </option>
   </component>
@@ -265,8 +278,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -297,7 +310,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReporteTest.mismaClasificacionEntrePrecios">
+  <component name="RunManager" selected="Application.Reporte">
+    <configuration name="Reporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modelos.Reporte" />
+      <module name="donaJuana" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -347,7 +371,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReporteTest.cantidadPorClasificacion2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReporteTest.existenciaMayorQueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="donaJuana" />
       <extension name="coverage">
         <pattern>
@@ -359,7 +383,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="modelos" />
       <option name="MAIN_CLASS_NAME" value="modelos.ReporteTest" />
-      <option name="METHOD_NAME" value="cantidadPorClasificacion2" />
+      <option name="METHOD_NAME" value="existenciaMayorQueTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -383,29 +407,6 @@
       <option name="PACKAGE_NAME" value="modelos" />
       <option name="MAIN_CLASS_NAME" value="modelos.ReporteTest" />
       <option name="METHOD_NAME" value="mismaClasificacionEntrePrecios" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ReporteTest.precioEntreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="donaJuana" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="modelos" />
-      <option name="MAIN_CLASS_NAME" value="modelos.ReporteTest" />
-      <option name="METHOD_NAME" value="precioEntreTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -456,18 +457,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ReporteTest" />
-      <item itemvalue="JUnit.ReporteTest.precioEntreTest" />
       <item itemvalue="JUnit.ReporteTest.cantidadPorClasificacion" />
-      <item itemvalue="JUnit.ReporteTest.cantidadPorClasificacion2" />
       <item itemvalue="JUnit.ReporteTest.mismaClasificacionEntrePrecios" />
+      <item itemvalue="Application.Reporte" />
+      <item itemvalue="JUnit.ReporteTest.existenciaMayorQueTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reporte" />
+        <item itemvalue="JUnit.ReporteTest.existenciaMayorQueTest" />
+        <item itemvalue="JUnit.ReporteTest" />
         <item itemvalue="JUnit.ReporteTest.mismaClasificacionEntrePrecios" />
         <item itemvalue="JUnit.ReporteTest.cantidadPorClasificacion" />
-        <item itemvalue="JUnit.ReporteTest.cantidadPorClasificacion2" />
-        <item itemvalue="JUnit.ReporteTest.precioEntreTest" />
-        <item itemvalue="JUnit.ReporteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -486,22 +487,11 @@
       <workItem from="1523132714129" duration="12013000" />
       <workItem from="1523159959970" duration="6874000" />
       <workItem from="1523201115850" duration="7167000" />
+      <workItem from="1523236351165" duration="5637000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReporteTest_cantidadPorClasificacion - 2018.04.08 at 11h 05m 20s.xml">
-      <configuration name="ReporteTest.cantidadPorClasificacion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReporteTest_cantidadPorClasificacion - 2018.04.08 at 11h 07m 14s.xml">
-      <configuration name="ReporteTest.cantidadPorClasificacion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReporteTest_cantidadPorClasificacion - 2018.04.08 at 11h 08m 50s.xml">
-      <configuration name="ReporteTest.cantidadPorClasificacion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReporteTest_cantidadPorClasificacion2 - 2018.04.08 at 11h 28m 23s.xml">
-      <configuration name="ReporteTest.cantidadPorClasificacion2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReporteTest_cantidadPorClasificacion - 2018.04.08 at 11h 30m 09s.xml">
       <configuration name="ReporteTest.cantidadPorClasificacion" configurationId="JUnit" />
     </history-entry>
@@ -520,12 +510,24 @@
     <history-entry file="ReporteTest_mismaClasificacionEntrePrecios - 2018.04.08 at 11h 54m 55s.xml">
       <configuration name="ReporteTest.mismaClasificacionEntrePrecios" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReporteTest - 2018.04.08 at 19h 17m 01s.xml">
+      <configuration name="ReporteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReporteTest - 2018.04.08 at 19h 18m 05s.xml">
+      <configuration name="ReporteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReporteTest_existenciaMayorQueTest - 2018.04.08 at 20h 34m 05s.xml">
+      <configuration name="ReporteTest.existenciaMayorQueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReporteTest_existenciaMayorQueTest - 2018.04.08 at 20h 34m 51s.xml">
+      <configuration name="ReporteTest.existenciaMayorQueTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38868000" />
+    <option name="totallyTimeSpent" value="44505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1600" height="875" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -537,12 +539,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30849674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24973544" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16354166" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -570,6 +572,80 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conexiones/Conexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factories/implementaciones/mySQL/ProductoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factories/implementaciones/mySQL/ProductoDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/ReporteProductos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factories/interfaces/ProductoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/Producto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/modelos/ReporteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="44" column="143" selection-start-line="44" selection-start-column="143" selection-end-line="44" selection-end-column="143" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -825,9 +901,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factories/interfaces/Reportes.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/Producto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="169" column="58" selection-start-line="169" selection-start-column="58" selection-end-line="169" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conexiones/Conexion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="450">
           <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -835,29 +919,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factories/interfaces/Reportes.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/Reporte.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/Producto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/ReporteProductos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factories/interfaces/ProductoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factories/implementaciones/mySQL/ProductoDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/modelos/ReporteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factories/interfaces/ProductoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -874,20 +959,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/ReporteProductos.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factories/implementaciones/mySQL/ProductoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+        <state relative-caret-position="885">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/modelos/ReporteTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/modelos/Reporte.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="44" column="143" selection-start-line="44" selection-start-column="143" selection-end-line="44" selection-end-column="143" />
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
